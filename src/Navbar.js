@@ -6,7 +6,7 @@ export default function Navbar() {
       <h1>A-Typical Blog</h1>
       <div className="links">
         <a href="/">Home</a>
-        <a href="/create">New blog</a>
+        <a href="/create" className='createBtn'>New blog</a>
       </div>
     </nav>
   )

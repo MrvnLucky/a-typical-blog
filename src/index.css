@@ -23,9 +23,21 @@
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
-  padding: 6px;
+  padding: 8px;
 }
 
 .navbar a:hover {
   color: red;
+}
+
+.navbar .createBtn {
+  color: white;
+  background-color: red;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.navbar .createBtn:hover {
+  color: white;
+  background-color: darkred;
 }
