@@ -41,3 +41,26 @@
   color: white;
   background-color: darkred;
 }
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20 px;
+}
+
+.blog-preview {
+  padding: 8px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid white;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 8px;
+}
