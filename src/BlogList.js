@@ -1,10 +1,7 @@
 import React from 'react'
 
-function BlogList(props) {
-  const blogs = props.blogs;
-  const title = props.title;
+function BlogList({ blogs, title }) {
 
-  console.log(props)
   return (
     <div className="blog-list">
       <h2>{title}</h2>
